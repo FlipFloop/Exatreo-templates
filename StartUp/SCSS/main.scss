@@ -1,1 +1,20 @@
+body {
+  background-color: #000;
+  margin: 0%
+}
 
+.exatreo_div {
+  background-color: #FFF;
+  @extend %div_dimensions;
+  
+  .exatreo_p {
+    @extend %e_dimensions;
+    text-align: justify;
+    /*padding: 2%;*/
+    border: 2px solid black;
+  }
+  
+  .exatreo_img {
+    @extend %e_dimensions;
+  }
+}
