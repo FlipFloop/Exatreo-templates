@@ -1,1 +1,9 @@
+%div_dimensions {
+  width: 100%;
+  height: $div_height;
+}
 
+%e_dimensions { /* e stands for 'element' - elements inside the div*/
+  width: calc(100%/2);
+  height: $div_height;
+}
