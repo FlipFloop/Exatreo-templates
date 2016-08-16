@@ -4,17 +4,21 @@
 }
 
 .exatreo_div .exatreo_p, .exatreo_div .exatreo_img {
-  width: calc(100%/2);
+  width: 50%;
   height: 300px;
+  /*float: left;*/
 }
 
 body {
   background-color: #000;
   margin: 0%;
+  padding: 0%;
 }
 
 .exatreo_div {
   background-color: #FFF;
+  display: -webkit-flex;
+  display: flex;
 }
 .exatreo_div .exatreo_p {
   text-align: justify;
