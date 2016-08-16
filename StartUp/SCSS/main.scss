@@ -6,18 +6,18 @@ body {
 
 .exatreo_div {
   background-color: #FFF;
-  @extend %div_dimensions;
+  @include div_dimensions;
   display: -webkit-flex;
   display: flex;
   
   .exatreo_p {
-    @extend %e_dimensions;
+    @include e_dimensions;
     text-align: justify;
     /*padding: 2%;*/
     border: 2px solid black;
   }
   
   .exatreo_img {
-    @extend %e_dimensions;
+    @include e_dimensions;
   }
 }
