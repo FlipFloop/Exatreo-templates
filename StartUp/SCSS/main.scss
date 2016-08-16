@@ -1,11 +1,14 @@
 body {
   background-color: #000;
-  margin: 0%
+  margin: 0%;
+  padding: 0%;
 }
 
 .exatreo_div {
   background-color: #FFF;
   @extend %div_dimensions;
+  display: -webkit-flex;
+  display: flex;
   
   .exatreo_p {
     @extend %e_dimensions;
