@@ -1,1 +1,11 @@
+@mixin div_dimensions {
+  width: 100%;
+  height: $div_height;
+}
+
+@mixin e_dimensions { /* e stands for 'element' - elements inside the div*/
+  width: 50%;
+  height: $div_height;
+  /*float: left;*/
+}
 
