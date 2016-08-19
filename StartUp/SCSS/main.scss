@@ -4,22 +4,31 @@ body {
   padding: 0%;
 }
 
+p {
+ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 .exatreo_div {
   background-color: #FFF;
   @include div_dimensions;
   display: -webkit-flex;
   display: flex;
+  margin-bottom: 5%;
   
   .exatreo_p {
     @include e_dimensions;
     text-align: justify;
-    /*padding: 2%;*/
+    padding: 2%;
     border: 2px solid black;
     margin-top: 0%;
+    text-align: center;
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
   }
   
   .exatreo_img {
-    @include e_dimensions;
+    @include e_dimensions; 
     -webkit-filter: grayscale(100%);
     -o-filter:grayscale(100%);
     -moz-filter: grayscale(100%); 
