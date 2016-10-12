@@ -5,34 +5,38 @@ body {
 }
 
 p {
- font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Rubik", sans-serif;
+  font-size: 19px;
 }
 
 .exatreo_div {
   background-color: #FFF;
-  @include div_dimensions;
+  width: 100%;
+  height: 300px;
   display: -webkit-flex;
   display: flex;
   margin-bottom: 5%;
-  
-  .exatreo_p {
-    @include e_dimensions;
-    text-align: justify;
-    padding: 2%;
-    border: 2px solid black;
-    margin-top: 0%;
-    text-align: center;
-    -moz-box-sizing: border-box; 
-    -webkit-box-sizing: border-box; 
-     box-sizing: border-box; 
-  }
-  
-  .exatreo_img {
-    @include e_dimensions; 
-    -webkit-filter: grayscale(100%);
-    -o-filter:grayscale(100%);
-    -moz-filter: grayscale(100%); 
-    -ms-filter: grayscale(100%);
-    filter: grayscale(100%);
-  }
+}
+.exatreo_div .exatreo_p {
+  width: 50%;
+  height: 300px;
+  /*float: left;*/
+  text-align: justify;
+  padding: 2%;
+  border: 2px solid black;
+  margin-top: 0%;
+  text-align: center;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.exatreo_div .exatreo_img {
+  width: 50%;
+  height: 300px;
+  /*float: left;*/
+  -webkit-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
